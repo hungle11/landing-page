@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin-slower {
+    animation: spin 2.6s linear infinite;
+}
+
+
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin-slower1 {
+    animation: spin 2.8s linear infinite;
+}
+
+
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin-slower2 {
+    animation: spin 3s linear infinite;
+}
+
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin-slower3 {
+    animation: spin 3.2s linear infinite;
+}
+
+
+
+
+
+
+
+.slide-fwd-tr {
+    margin: 58px 123px 0px 0px;
+}
+
+.slide-fwd-tr {
+    -webkit-animation: slide-fwd-tr 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-tr 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes slide-fwd-tr {
+    0% {
+        -webkit-transform: translateZ(0) translateY(0) translateX(0);
+        transform: translateZ(0) translateY(0) translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(260px) translateY(-100px) translateX(100px);
+        transform: translateZ(260px) translateY(-100px) translateX(100px);
+    }
+}
